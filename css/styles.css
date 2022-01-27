@@ -1,0 +1,211 @@
+body {
+    text-align: center;
+    font-family: 'Merriweather', cursive;
+    color: #40514E;
+}
+
+/*-----------------------------------------------------Navbar---------------------------------------------------------*/
+
+.navbar {
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 15%);
+}
+
+.navbar-brand {
+    padding: 0 0 0 20px;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+/*------------------------------------------------------Title---------------------------------------------------------*/
+
+#title {
+    background-image: url("../images/laptop-3214756.png");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 20% 35% 40%;
+    box-shadow: 0 10px 5px #888, 0 -10px 5px #888;
+}
+
+.headline-column {
+    margin-bottom: 50%;
+}
+
+.headline {
+    font-size: 90px;
+    font-family: 'Sacramento', cursive;
+    color: dimgray;
+    line-height: 2;
+    position: relative;
+    bottom: 170px;
+}
+
+.headline-addendum {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: dimgray;
+    position: relative;
+    top: 200px;
+}
+
+.junior {
+    text-decoration: underline;
+}
+
+/*------------------------------------------------------Profile-------------------------------------------------------*/
+
+#profile {
+    background-color: #F0ECE3;
+    padding: 100px 0;
+}
+
+.profileImg {
+    padding: 5%;
+    width: 40%;
+    transform: rotate(5deg);
+}
+
+.container-fluid {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.profile-headline {
+    padding: 0 0 30px;
+}
+
+.profile-text {
+    padding: 0 300px;
+}
+
+/*------------------------------------------------------Skills--------------------------------------------------------*/
+
+#skills {
+    background-color: #94a4a5;
+    padding: 100px 0;
+    box-shadow: 0 10px 5px #888, 0 -10px 5px #888;
+    position: relative;
+    z-index: 1;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+.images-frontend {
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.html {
+    transform: rotate(5deg);
+    bottom: 5px;
+}
+
+.css {
+    transform: rotate(-5deg);
+    padding-top: 15px;
+}
+
+.js {
+    transform: rotate(5deg);
+}
+
+.images-backend {
+    width: 15%;
+    float: right;
+    margin: 20px;
+}
+
+.java {
+    transform: rotate(-5deg);
+}
+
+.python {
+    transform: rotate(-5deg);
+    margin-top: 30px;
+}
+
+.skills-header {
+    padding-bottom: 20px;
+}
+
+.skills-text {
+}
+
+/*------------------------------------------------------Contact-------------------------------------------------------*/
+
+#contact {
+    background-color: #F0ECE3;
+    padding: 150px 0;
+}
+
+.contact-headline {
+    padding-bottom: 20px;
+}
+
+.contact-button {
+    margin: 30px 0;
+    background-color: #888888;
+    border-color: #888888;
+}
+
+.contact-button:hover {
+    background-color: dimgray;
+    border-color: dimgray;
+}
+
+/*-------------------------------------------------------Footer-------------------------------------------------------*/
+
+#footer {
+    background-color: #94a4a5;
+    padding: 30px 0;
+    box-shadow: 0 10px 5px #888, 0 -10px 5px #888;
+}
+
+.footer-link {
+    margin: 50px;
+    text-decoration: none;
+    color: #F0ECE3;
+}
+
+.footer-link:hover {
+    color: #40514E;
+}
+
+.copyright {
+    padding-top: 30px;
+    color: #F0ECE3;
+}
+
+/*---------------------------------------------------Reactive---------------------------------------------------------*/
+
+@media (min-width: 1330px) {
+
+    .headline {
+    }
+
+    .headline-addendum {
+    }
+}
+
+@media (max-width: 1130px) {
+
+    .headline {
+    }
+
+    .headline-addendum {
+    }
+}
